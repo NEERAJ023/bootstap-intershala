@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    background-color: #c8d1dd;
+    height:100vh;
+}
+.header{
+    background-color: #62676d;
+}
+.header .box1{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.header .box1 .info{
+    display:flex;
+    gap:14px;
+}
+.header .box1 .info+.info{
+    margin-right: 180px;
+}
+.box1 .info h1{
+    color:#e3e5e5;
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.box2{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    width:70%;
+    
+    border-bottom:1px solid black;
+    padding:40px 0px 20px 0px;
+}
+.box2 .location {
+display: flex;
+gap:7px;
+flex-direction: column;
+}
+.box2 .location .place{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.box2 .location .place h1{
+    font-family: Roboto;
+font-size: 23px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.box2 .location .content{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #606060;
+
+}
+.box2 .input-location{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+width:300px;
+height:36px;
+background-color:white ;
+padding:0px 20px;
+}
+.box2 .input-location .btn{
+    cursor: pointer;
+}
+.box2 .input-location input{
+    border:none;
+    flex-grow:1;
+    height:100%;
+    background-color: none;
+    font-family: Roboto;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+.box3{
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+    justify-content: center;
+    gap:50px;
+}
+.box3 .frame1{
+    display:flex;
+    flex-direction:column;
+    gap:56px; 
+}
+.box3 .frame1 .input{
+   display:flex;
+   flex-direction: column;
+}
+.box3 .frame1 .input label{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.box3 .frame1 .input input{
+    width:140px;
+    height:30px;
+}
+.box3 .frame1 ul {
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+.box3 .frame1 ul li{
+    list-style: none;
+}
+.frame2{
+    width:fit-content;
+}
+.frame2 .card{
+    background-color: #2d3243;
+    width:180px;
+    height:260px;
+    border-radius: 15px;
+    padding:10px;
+}
+.frame2 h1{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+justify-content: center;
+}
+.frame2 .card .card1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.frame2 .card .card1 h1{
+    color:white;
+    font-family: Roboto;
+font-size: 19px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+.frame2 .card .card2{
+    margin-top:20px;
+    border-top:0.0001px solid white;
+    padding-top:15px;
+}
+.frame2 .card .card2 ul{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.frame2 .card .card2 ul li{
+    list-style: none;
+    
+}
